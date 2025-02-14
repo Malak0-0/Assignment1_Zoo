@@ -69,4 +69,15 @@ body {
     height: 100%;
     object-fit: cover;
   }
-  
+  .navigation-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+.back-button, .next-button {
+    width: 200px; /* Optional: Ensures buttons have the same width */
+    text-align: center;
+}
